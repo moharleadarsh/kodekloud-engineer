@@ -186,7 +186,7 @@ Download `config.json` file from the Blob Container
 ```bash
 az storage blob download \
   --account-name $STORAGE_ACCOUNT \
-  --container-name nautilus-config \
+  --container-name $CONTAINER \
   --name config.json \
   --file /home/azureuser/config.json
 ```  
