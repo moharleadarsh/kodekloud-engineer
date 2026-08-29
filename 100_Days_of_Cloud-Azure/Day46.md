@@ -120,7 +120,7 @@ az vm create \
 
 ### **Step 8: Get public IP of the VM**
 ```bash
-VM_PUBLIC_IP=(az vm show \
+VM_PUBLIC_IP=$(az vm show \
   --resource-group $RESOURCE_GROUP \
   --name $VM_NAME \
   --show-details \
